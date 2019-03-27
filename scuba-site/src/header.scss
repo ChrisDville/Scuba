@@ -1,13 +1,19 @@
 *{margin: 0; padding: 0; box-sizing: border-box};
 
+@import url('https://fonts.googleapis.com/css?family=Roboto: 200,300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600');
 
+$font-roboto: Roboto, sans-serif;
+$font-monster: Montserrat, sans-serif;
 
-header{}
+header{
+    font: 100% $font-roboto;
+}
 
 nav{
     height: 7vh;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
 
     border-bottom: 2px solid #5f6266;
 
@@ -62,7 +68,7 @@ nav > ul li a:hover{
 }
 
 #searchInputHeader{
-    height: 25px;
+    height: 3vh;
     width: 75%;
 
     border: 1px solid #cccc;
@@ -70,8 +76,11 @@ nav > ul li a:hover{
 }
 
 #searchButtonHeader{
+    font: 100% $font-monster;
+    font-size: 1.5vh;
+
     width: 4%;
-    height: 25px;
+    height: 3vh;
     color: black;
     
     border: 1px solid #cccc;
@@ -89,7 +98,7 @@ nav > ul li a:hover{
 }
 
 #loginPic{
-    width: 25px;
+    width: 3.5vh;
 }
 
 #loginPic > img{
@@ -99,15 +108,15 @@ nav > ul li a:hover{
 }
 
 #loginLink{
-    height: 25px;
+    height: 2.9vh;
     width: 100%;
     background-color: #cccc;
 }
 
 #loginLink > p{
-    height: 25px;
+    font-size: 2vh;
     color: black;
     text-decoration: none;
-    padding-left: 10px;
-    padding-top: 0.2rem;
+    padding: 0.3vh;
+    text-align: center;
 }
