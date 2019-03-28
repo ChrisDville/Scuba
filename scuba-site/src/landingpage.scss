@@ -3,20 +3,22 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600');
 @import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600');
 
 $font-roboto: Roboto, sans-serif;
 $font-monster: Open Sans Condensed, sans-serif;
 $font-dosis: Dosis, sans-serif;
+$font-Raleway: Raleway, sans-serif;
 
 .landingPage {
     width: 100%;
-    height: 90vh;
+    height: 64vh;
 
         #landingPageGrid{
-        height: 70vh;
+        height: 64vh;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 15vh 15vh 15vh 8vh 20vh;
+        grid-template-rows: 11.3vh 11vh 14vh 7.7vh 20vh;
     }
 
         .scubaHero{
@@ -28,7 +30,7 @@ $font-dosis: Dosis, sans-serif;
             background-size: 100%;
 
             position: absolute;
-            top: -20vh;
+            top: -29vh;
             z-index: -5;
         }
 
@@ -43,24 +45,26 @@ $font-dosis: Dosis, sans-serif;
             width: 100%;
             height: 100%;
 
-            padding: 5vh;
+            padding: 2vw;
 
             text-align: center;
 
-            background-color: rgba(255, 255, 255, 0.6);
+            background-color: rgba(255, 255, 255, 0.7);
         }
 
         h1{
-            font: 100% $font-monster 100;
-            font-size: 3vh;
+            font: 100% $font-Raleway;
+            font-size: 2.8vh;
             text-transform: uppercase;
-            font-weight: 100;
+            font-weight: 300;
+            letter-spacing: -2px;
         }
 
         #scuba-text-center > p{
-            font: 100% $font-monster 100;
+            font: 100% $font-Raleway;
             font-size: 1.5vh;
             text-transform: uppercase;
-            font-weight: 100;
+            font-weight: 300;
+            margin-top: 0.5vh;
         }
     }
